@@ -52,10 +52,4 @@
     </div>
 </form>
 
-<script>
-function formatPhoneNumber(input) {
-    let value = input.value.replace(/\D/g, '');
-    if (value.length > 10) value = value.slice(0, 10);
-    input.value = value.length ? `+1 ${value.slice(0, 3)}-${value.slice(3, 6)}-${value.slice(6, 10)}` : '';
-}
-</script>
+
