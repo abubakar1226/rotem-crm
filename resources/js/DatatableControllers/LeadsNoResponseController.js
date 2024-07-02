@@ -1,0 +1,3 @@
+class LeadsNoResponseDatatableController extends LeadsDatatableController {}
+
+window.LeadsNoResponseDatatableController = LeadsNoResponseDatatableController;
